@@ -26,8 +26,10 @@ To run the project do the following steps:
 			server.port=<the-port-number>
 	 
 	
-Api Details
-	POST http://localhost:8080/api/persons -- adding new person entity \n		
+Api Details			
+
+
+	POST http://localhost:8080/api/persons -- adding new person entity 		
 	GET http://localhost:8080/api/persons	--get all the person entity from the database
 	PUT http://localhost:8080/api/persons/<personId>		--update a person entity
 	GET http://localhost:8080/api/persons/<personId> --get a person by id
@@ -37,13 +39,14 @@ Rest clients like postman or curl can be used for calling the rest api.
 
 
 UI details:
+	
+	
 	http://localhost:8080/home --- gives you a table containing all the users in the database
 	
 
 	The addUser button is at the extreme left at the bottom of the table
 	Each row has a button for edit and delete . 
-	Clicking on the edit button takes you to
-		http://localhost:8080/edit/<personId>
+	Clicking on the edit button takes you to http://localhost:8080/edit/<personId>
 	Change the necessary details and click on Add/Save user button which redirects to the http://localhost:8080/home
 	To delete a user click on the delete user button present on each row . 
 
@@ -54,7 +57,8 @@ H2(in-memory db) details-
 		http://localhost:8080/h2
 
 	and run queries on the person table 
-			'select * from person ' to verify whether the data added to the ui is getting persisted in the database.
+	
+	'select * from person ' to verify whether the data added to the ui is getting persisted in the database.
 
 	
 
