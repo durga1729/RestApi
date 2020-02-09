@@ -20,7 +20,7 @@ To run the project do the following steps:
 		go inside the RestApi folder and run './mvnw spring-boot:run' (for unix system)
 		or  mvnw spring-boot:run(for windows operating system)
 
-	Doing so will start the application on http://localhost:8080/home
+	Doing so will start the application on http://localhost:8080/crud/home
 	If 8080 is not available then navigate to src/main/resources/application.properties 
 	and add the following line
 			server.port=<the-port-number>
@@ -29,11 +29,11 @@ To run the project do the following steps:
 Api Details			
 
 
-	POST http://localhost:8080/api/persons -- adding new person entity 		
-	GET http://localhost:8080/api/persons	--get all the person entity from the database
-	PUT http://localhost:8080/api/persons/<personId> --update a person entity
-	GET http://localhost:8080/api/persons/<personId> --get a person by id
-	DELETE http://localhost:8080/api/persons/<personId> --delete a person by id
+	POST http://localhost:8080/crud/api/persons -- adding new person entity 		
+	GET http://localhost:8080/crud/api/persons	--get all the person entity from the database
+	PUT http://localhost:8080/crud/api/persons/<personId> --update a person entity
+	GET http://localhost:8080/crud/api/persons/<personId> --get a person by id
+	DELETE http://localhost:8080/crud/api/persons/<personId> --delete a person by id
 
 Rest clients like postman or curl can be used for calling the rest api.
 
@@ -41,13 +41,13 @@ Rest clients like postman or curl can be used for calling the rest api.
 UI details:
 	
 	
-	http://localhost:8080/home --- gives you a table containing all the users in the database
+	http://localhost:8080/crud/home --- gives you a table containing all the users in the database
 	
 
 	The addUser button is at the extreme left at the bottom of the table
 	Each row has a button for edit and delete . 
-	Clicking on the edit button takes you to http://localhost:8080/edit/<personId>
-	Change the necessary details and click on Add/Save user button which redirects to the http://localhost:8080/home
+	Clicking on the edit button takes you to http://localhost:8080/crud/edit/<personId>
+	Change the necessary details and click on Add/Save user button which redirects to the http://localhost:8080/crud/home
 	To delete a user click on the delete user button present on each row . 
 
 
