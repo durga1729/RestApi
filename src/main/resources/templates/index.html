@@ -39,8 +39,8 @@
 </head>
 
 <body>
-    
-        <div th:switch="${users}" class="container my-5">
+        <br>
+        <div th:switch="${users}" class="w3-container">
        <div class="w3-container w3-blue">
        <h2>Person directory</h2>
        </div>       
@@ -49,14 +49,14 @@
                     <h2 th:case="null">No users yet!</h2>
                     <div th:case="*">
                         <h2 class="my-5"></h2>
-                        <table id="persons" class="table table-striped table-responsive-md">
+                        <table id="persons" class="w3-table-all">
                             <thead>
-                                <tr>
-                                    <th>FirstName</th>
-                                    <th>LastName</th>
+                                <tr class="w3-green">
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
                                     <th>Age</th>
                                     <th>Hobby</th>
-                                    <th>FavouriteColour</th>
+                                    <th>Favourite Colour</th>
                                     <th>Edit</th>
                                     <th>Delete</th>
                                 </tr>
