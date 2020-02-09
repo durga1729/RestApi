@@ -27,7 +27,7 @@ To run the project do the following steps:
 	 
 	
 Api Details
-	POST http://localhost:8080/api/persons -- adding new person entity
+	POST http://localhost:8080/api/persons -- adding new person entity \n		
 	GET http://localhost:8080/api/persons	--get all the person entity from the database
 	PUT http://localhost:8080/api/persons/<personId>		--update a person entity
 	GET http://localhost:8080/api/persons/<personId> --get a person by id
