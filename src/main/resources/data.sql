@@ -12,5 +12,8 @@ CREATE TABLE person (
 INSERT INTO person (first_name, last_name, favourite_colour, age,hobby) VALUES
   ('Aliko', 'Dangote', 'Green',23,'Chess,Acting'),
   ('Bill', 'Gates', 'Yellow',32,'Gardening,,Stamp-collection'),
-  ('Folrunsho', 'Alakija', 'Pink','45','StampCollection , Loitering');
+  ('Folrunsho', 'Alakija', 'Pink','45','StampCollection , Loitering'),
+  ('Durga', 'Guthula', 'Pink','25','Gaming'),
+  ('Suguna', 'Guthula', 'teal','35','Internet'),
+  ('Arnab', 'Thakur', 'blue','25','Racing');
   
