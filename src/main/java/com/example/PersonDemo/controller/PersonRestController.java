@@ -17,6 +17,13 @@ import com.example.PersonDemo.dao.PersonRepository;
 import com.example.PersonDemo.entity.Person;
 import com.example.PersonDemo.entity.PersonJson;
 
+/**
+ * It is rest controller which is used for 
+ * creating http endpoints which provide crud services to REST client
+ * 
+ * @author Durga Guthula
+ *
+ */
 @RestController
 @RequestMapping("/api")
 public class PersonRestController {

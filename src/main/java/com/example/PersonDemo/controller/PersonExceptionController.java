@@ -7,6 +7,12 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import com.example.PersonDemo.dao.PersonErrorResponse;
 
+/**
+ * It is for handling global exceptions
+ * 
+ * @author Durga Guthula
+ *
+ */
 @ControllerAdvice
 public class PersonExceptionController {
 

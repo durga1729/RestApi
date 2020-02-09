@@ -14,6 +14,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import com.example.PersonDemo.dao.PersonRepository;
 import com.example.PersonDemo.entity.Person;
 
+/**
+ * It is the main controller which serve html pages
+ * 
+ * @author Durga Guthula
+ *
+ */
 @Controller
 public class PersonController {
 	@Autowired

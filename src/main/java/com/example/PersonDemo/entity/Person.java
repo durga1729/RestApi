@@ -13,6 +13,12 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * Model for Person entity details
+ * 
+ *  @author Durga Guthula
+ *
+ */
 @Entity
 @Table(name="person")
 public class Person implements Serializable{

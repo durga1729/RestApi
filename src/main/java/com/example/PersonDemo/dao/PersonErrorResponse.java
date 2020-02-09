@@ -1,5 +1,11 @@
 package com.example.PersonDemo.dao;
 
+/**
+ * It is the wrapper for the error message
+ * 
+ * @author Durga Guthula
+ *
+ */
 public class PersonErrorResponse {
 	private int status;
 	private String message;

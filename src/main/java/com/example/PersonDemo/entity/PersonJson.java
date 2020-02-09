@@ -2,6 +2,12 @@ package com.example.PersonDemo.entity;
 
 import java.util.List;
 
+/**
+ * Model for Person Json in the response body
+ * 
+ *  @author Durga Guthula
+ *
+ */
 public class PersonJson {
 	
 	private int id;
