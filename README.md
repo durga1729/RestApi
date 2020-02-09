@@ -1,5 +1,7 @@
 #SpringBoot Crud for Person Entity
 
+![personDirectory](https://user-images.githubusercontent.com/60814977/74103516-7df84900-4b72-11ea-847e-432c58df4119.PNG)
+
 	#Objective
 	 Create a rest api for storing,deleting, updating and retriviing person entities
 	
