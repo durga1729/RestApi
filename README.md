@@ -3,13 +3,16 @@
 ![personDirectory](https://user-images.githubusercontent.com/60814977/74103516-7df84900-4b72-11ea-847e-432c58df4119.PNG)
 
 	#Objective
+	 
 	 Create a rest api for storing,deleting, updating and retriviing person entities
+	 It includes search(by using search bar) and sort the table (by clicking headers)
 	
 	Technologies used
 	1.Spring boot
 	2.Thymeleaf 
 	3.Spring Data Jpa
 	4.H2 in memory database
+	5.W3-CSS
 
 To run the project do the following steps:
 	
@@ -17,12 +20,15 @@ To run the project do the following steps:
 
 	1.First clone the repo from this repo
 			git clone https://github.com/durga1729/RestApi.git
+			
 	2.The code works with h2 database hence no extra configuration is needed
+	
 	3.To run the code-
 		go inside the RestApi folder and run './mvnw spring-boot:run' (for unix system)
 		or  mvnw spring-boot:run(for windows operating system)
 
 	Doing so will start the application on http://localhost:8080/crud/home
+	
 	If 8080 is not available then navigate to src/main/resources/application.properties 
 	and add the following line
 			server.port=<the-port-number>
