@@ -35,20 +35,45 @@
   color: white;
 }
 
-</style>         
+</style> 
+<script>
+function myFunction() {
+	  var input, filter, table, tr, td, i;
+	  input = document.getElementById("myInput");
+	  filter = input.value.toUpperCase();
+	  table = document.getElementById("persons");
+	  tr = table.getElementsByTagName("tr");
+	  for (i = 0; i < tr.length; i++) {
+	    td = tr[i].getElementsByTagName("td")[0];
+	    if (td) {
+	      txtValue = td.textContent || td.innerText;
+	      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+	        tr[i].style.display = "";
+	      } else {
+	        tr[i].style.display = "none";
+	      }
+	    }
+	  }
+	}
+</script>
 </head>
 
 <body>
         <br>
+        
         <div th:switch="${users}" class="w3-container">
        <div class="w3-container w3-blue">
        <h2>Person directory</h2>
-       </div>       
+       </div>  
+        
             <div class="row">
+            
                 <div class="col-md-6">
                     <h2 th:case="null">No users yet!</h2>
                     <div th:case="*">
                         <h2 class="my-5"></h2>
+                          <input class="w3-input w3-border w3-padding" type="text" placeholder="Search for persons.." id="myInput" onkeyup="myFunction()">
+          
                         <table id="persons" class="w3-table-all">
                             <thead>
                                 <tr class="w3-green">
