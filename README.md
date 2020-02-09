@@ -31,7 +31,7 @@ Api Details
 
 	POST http://localhost:8080/api/persons -- adding new person entity 		
 	GET http://localhost:8080/api/persons	--get all the person entity from the database
-	PUT http://localhost:8080/api/persons/<personId>		--update a person entity
+	PUT http://localhost:8080/api/persons/<personId> --update a person entity
 	GET http://localhost:8080/api/persons/<personId> --get a person by id
 	DELETE http://localhost:8080/api/persons/<personId> --delete a person by id
 
